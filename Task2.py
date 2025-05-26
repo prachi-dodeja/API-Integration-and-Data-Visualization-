@@ -1,0 +1,30 @@
+
+import pandas as pd
+from fpdf import FPDF
+from fpdf.enums import XPos, YPos
+df = pd.read_excel("data.xlsx")
+df.columns = df.columns.str.strip()
+total_employees = len(df)
+total_salary = df["Salary"].sum()
+pdf = FPDF()
+pdf.add_page()
+pdf.set_font("Helvetica", "B", 16)
+pdf.cell(200, 10, text="Employee Salary Report", new_x=XPos.LMARGIN, new_y=YPos.NEXT, align='C')
+pdf.set_font("Helvetica", size=12)
+pdf.ln(5)
+pdf.cell(200, 10, text=f"Total Employees: {total_employees}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+pdf.cell(200, 10, text=f"Total Salary: Rs {total_salary}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+pdf.ln(5)
+pdf.set_font("Helvetica", "B", 12)
+pdf.cell(60, 10, "Name", border=1)
+pdf.cell(60, 10, "Department", border=1)
+pdf.cell(60, 10, "Salary", border=1)
+pdf.ln()
+pdf.set_font("Helvetica", "", 12)
+for index, row in df.iterrows():
+    pdf.cell(60, 10, str(row["Name"]), border=1)
+    pdf.cell(60, 10, str(row["Department"]), border=1)
+    pdf.cell(60, 10, f"Rs {row['Salary']}", border=1)
+    pdf.ln()
+pdf.output("report.pdf")
+print("PDF report generated successfully")
