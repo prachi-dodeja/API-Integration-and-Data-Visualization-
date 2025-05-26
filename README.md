@@ -110,7 +110,11 @@ Basic data analytics and formatting
 Automation techniques for report creation
 
 This task helped interns gain practical experience in generating automated professional reports, a critical skill for data analysts, Python developers, and business intelligence roles.
+Output:
+![Image](https://github.com/user-attachments/assets/6c8f96d4-3aa4-418b-a0aa-079ca81d740a)
 
+![Image](https://github.com/user-attachments/assets/37045ecb-3d33-45b4-988f-8748ed5c56f2)
+Task 3
 AI-Based Chatbot using NLP – Successfully Executed
 In this task, interns were challenged to design and implement an AI-powered chatbot capable of understanding and responding to user queries using Natural Language Processing (NLP). The goal was to simulate real-world chatbot behavior for domains like customer support, FAQ automation, or simple task management.
 
