@@ -163,7 +163,10 @@ Rule-based or simple ML-based conversational design
 Real-world applications of chatbots in AI-powered assistants, virtual agents, and support systems
 
 This task gave interns a solid foundation in building real-world NLP solutions, bridging theoretical concepts with applied AI, and understanding the architecture behind intelligent conversational agents.
+Output:
+![Image](https://github.com/user-attachments/assets/b96177a0-9442-489d-b249-9d4c141fa077)
 
+Task 4
 
 Python Automation – Successfully Executed
 This task challenged interns to design and implement scripts that automate routine tasks using Python. The goal was to showcase how programming can be leveraged to eliminate manual work, increase productivity, and streamline workflows across various domains.
