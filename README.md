@@ -58,6 +58,11 @@ Creating interactive or static dashboards for reporting insights
 OUTPUT:
 
 ![Image](https://github.com/user-attachments/assets/403ce108-2c7e-4be9-b827-16f107899735)
+![Image](https://github.com/user-attachments/assets/1491a939-d73a-4de9-bbb7-d3684e
+
+![Image](https://github.com/user-attachments/assets/42eb46f4-7908-49f2-be26-a11c466850c2)
+
+e2e6fe)
 
 Task 2: Automated Report Generation – Successfully Executed
 In this task, interns developed a fully functional automated report generation system using Python. The core objective was to read data from a structured file (CSV/Excel), analyze it, and generate a professionally formatted PDF report using libraries like FPDF or ReportLab.
