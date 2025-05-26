@@ -11,13 +11,16 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.pipeline import Pipeline
 import warnings
 warnings.filterwarnings('ignore')
+
 plt.style.use('seaborn-v0_8')
 sns.set_palette("husl")
+
 class EmailSpamDetector:
     def __init__(self):
         self.models = {}
         self.vectorizer = TfidfVectorizer(max_features=5000, stop_words='english')
         self.results = {}
+        
     def create_sample_dataset(self):
         emails = [
             "URGENT! You've won $1000000! Click here now to claim your prize!",
@@ -48,15 +51,18 @@ class EmailSpamDetector:
         ]
         labels = [1]*10 + [0]*15
         return pd.DataFrame({'email': emails, 'label': labels})
+    
     def preprocess_data(self, df):
         df['email'] = df['email'].str.lower()
         df['email'] = df['email'].str.replace(r'[^a-zA-Z\s]', '', regex=True)
         return df
+    
     def split_data(self, df):
         X = df['email']
         y = df['label']
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42, stratify=y)
         return X_train, X_test, y_train, y_test
+    
     def train_models(self, X_train, y_train):
         models_config = {
             'Naive Bayes': MultinomialNB(),
