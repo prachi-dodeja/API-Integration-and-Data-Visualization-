@@ -11,6 +11,8 @@ DOMAIN:PYTHON
 DURATION:4 WEEKS
 
 MENTOR:NEELA SANTOSH
+
+Task 1:
 In this task, interns gained hands-on experience with API integration and data visualization using Python. The primary objective was to fetch real-time data from a public API—such as OpenWeatherMap—and transform this raw data into insightful graphical representations using Python libraries like Matplotlib and Seaborn.
 
 🔍 Overview of Work Done:
@@ -51,7 +53,13 @@ Data extraction and manipulation using Python (Pandas, JSON)
 Data visualization and storytelling through charts
 
 Creating interactive or static dashboards for reporting insights
- Task 2: Automated Report Generation – Successfully Executed
+
+
+OUTPUT:
+
+![Image](https://github.com/user-attachments/assets/403ce108-2c7e-4be9-b827-16f107899735)
+
+Task 2: Automated Report Generation – Successfully Executed
 In this task, interns developed a fully functional automated report generation system using Python. The core objective was to read data from a structured file (CSV/Excel), analyze it, and generate a professionally formatted PDF report using libraries like FPDF or ReportLab.
 
 📌 Objectives Completed:
