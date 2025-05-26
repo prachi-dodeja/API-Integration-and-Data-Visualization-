@@ -238,3 +238,6 @@ Creating and managing Excel and PDF documents via code
 Time-based automation with scheduling tools
 
 This task provided interns with practical experience in real-world automation, reinforcing their understanding of how Python can drive productivity and efficiency across diverse domains such as office work, data handling, and online content management.
+![Image](https://github.com/user-attachments/assets/c4e57e98-3f07-48df-9081-892ec8c40ab6)
+
+![Image](https://github.com/user-attachments/assets/b583feda-b1cf-4d0c-889c-7f7df97e2f96)
